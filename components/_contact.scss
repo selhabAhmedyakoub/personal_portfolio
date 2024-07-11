@@ -1,0 +1,65 @@
+@import "./mixins";
+.contact {
+  @include twoColumns($column-gap: 20, $row-gap: 7.5);
+  display: grid;
+  align-items: center;
+}
+.contact__platforms {
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-20);
+  line-height: 1.9;
+}
+
+.contact__platforms--email {
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+  margin: 2.5rem 0;
+}
+.contact__platforms--platforms {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__social {
+  width: 25px;
+  height: 25px;
+  transition: 0.3s;
+}
+.contact__social:hover {
+  transform: scale(1.2);
+}
+.contact__social:hover .contact__svg {
+  fill: var(--color-dark-green);
+}
+.contact__svg {
+  fill: var(--color-text);
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.contact__inputs {
+  display: flex;
+  gap: 3rem;
+}
+.contact__input {
+  border: 0;
+  outline: 0;
+  border-bottom: 0.1rem solid var(--color-input-border);
+  background: transparent;
+  flex: 1;
+}
+.contact__textarea {
+  width: 100%;
+  margin-top: 4rem;
+}
+.contact__button {
+  background-color: var(--color-link-bg);
+  color: white;
+  padding: 1.7rem 1.8rem;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-24);
+  margin-top: 3.4rem;
+}

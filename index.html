@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selhab Ahmed Yakoub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'M A Passionate Front-End Developer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Selhab Ahmed Yakoub</span>, a
+            software engineering student at Batna 2 University and a passionate
+            front-end developer, dedicated to creating intuitive and responsive
+            web applications.
+          </p>
+          <a href="#contact" class="bio__links say_hi_link">Say Hi</a>
+          <a href="./cv.pdf" class="bio__links find_out_link"
+            >Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/personal-pic.png"
+            alt="image of selhab ahmed yakoub"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2__heading">My Skills</h2>
+        <ul class="skills__items">
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">HTML</h2>
+              <span class="skills__content--experience">2 years</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/html5.svg"
+                alt="html5 icon"
+              />
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">CSS</h2>
+              <span class="skills__content--experience">2 years</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/css.svg"
+                alt="css icon"
+              />
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">SASS</h2>
+              <span class="skills__content--experience">1 year</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/sass.svg"
+                alt="sass icon"
+              />
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">Javascript</h2>
+              <span class="skills__content--experience">2 years</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/js.svg"
+                alt="Javascript icon"
+              />
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">React</h2>
+              <span class="skills__content--experience">1 year</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/react.svg"
+                alt="React icon"
+              />
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__content">
+              <h2 class="skills__content--name">Git</h2>
+              <span class="skills__content--experience">1 year</span>
+            </div>
+            <div class="skills__icon">
+              <img
+                class="skills__icon--svg"
+                src="./images/brand/git.svg"
+                alt="Git icon"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="projects" class="projects section">
+        <h2 class="h2__heading">
+          My Featured <br />
+          Projects
+        </h2>
+        <div class="project__pic-content">
+          <img
+            class="project__pic"
+            src="images/project-1.jpg"
+            alt="quran tab extension"
+          />
+        </div>
+        <div class="project__data">
+          <h3 class="h3__heading">QURAN TAB</h3>
+          <p class="project__objective">
+            Quran Tab is an Islamic new tab page that will keep you inspired by
+            a verse from the Quran every time you open a new tab that helps you
+            achieve your "Khatma" and keeps you connected with the words of
+            Allah.
+          </p>
+          <a href="#" class="project__links live_link" target="_blank"
+            >Live Preview</a
+          >
+          <a href="#" class="project__links repo_link" target="_blank"
+            >Repository</a
+          >
+        </div>
+
+        <div class="project__data">
+          <h3 class="h3__heading">QURAN STATION</h3>
+          <p class="project__objective">
+            Small extension that gives you access to over 100 stations to help
+            you listen to the Quran from your favorite reciters easily
+            Quran-Station has over 100 stations to help you listen to the Quran
+            from your favorite reciters in a quick and easy way.
+          </p>
+          <a href="#" class="project__links live_link" target="_blank"
+            >Live Preview</a
+          >
+          <a href="#" class="project__links repo_link" target="_blank"
+            >Repository</a
+          >
+        </div>
+        <div class="project__pic-content">
+          <img
+            class="project__pic"
+            src="images/project-2.jpg"
+            alt="quran station"
+          />
+        </div>
+      </section>
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2__heading">
+          What MY <br />
+          Clients Says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Yakoub has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Yakoub to
+              own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              Yakoub will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__opinion">
+              I had a chance to work closely with Yakoub as a direct manager
+              from hist first day at ? until my last day there (6+months).
+              Yakoub's biggest strengths that I admire are taking initiatives on
+              personal and team level, and driving them.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section section">
+        <h2 class="h2__heading">
+          Let's Work <br />
+          Together
+        </h2>
+        <div class="contact__platforms">
+          <p class="contact__platforms--text">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a
+            class="contact__platforms--email"
+            href="mailto: ahmedyakoubselhab@gmail.com"
+          >
+            ahmedyakoubselhab@gmail.com
+          </a>
+          <div class="contact__platforms--platforms">
+            <a
+              href="https://www.linkedin.com/in/nureddinhaji"
+              class="contact__social"
+              target="_blank"
+              aria-label="follow me on linkedin"
+            >
+              <svg
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.7c-1 0-1.8-.8-1.8-1.7s.8-1.8 1.8-1.8S8.3 4 8.3 5s-.8 1.7-1.8 1.7zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.4V19z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/nureddinhaji"
+              class="contact__social"
+              target="_blank"
+              aria-label="follow me on github"
+              ><svg
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 24 24"
+              >
+                <path
+                  d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zm-4.5 19.6c-.4 0-.5-.2-.5-.4V17c0-.7-.3-1.2-.6-1.5 1.8-.2 3.7-.8 3.7-4a3 3 0 0 0-.8-2c0-.3.3-1-.1-2.2 0 0-.7-.2-2.2.8a7.6 7.6 0 0 0-4 0c-1.5-1-2.2-.8-2.2-.8-.4 1.1-.2 2 0 2.1a3 3 0 0 0-.9 2.2c0 3 1.9 3.7 3.6 4-.2.1-.4.5-.5 1-.4.2-1.6.6-2.3-.7 0 0-.4-.7-1.2-.8 0 0-.8 0 0 .5 0 0 .4.2.8 1.2 0 0 .5 1.4 2.7 1v1.4c0 .2-.1.5-.5.4a8 8 0 1 1 5 0z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://twitter.com/nureddinhaji"
+              class="contact__social"
+              target="_blank"
+              aria-label="follow me on twitter"
+            >
+              <svg
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zm-.1 9.2a9.3 9.3 0 0 1-14.4 8.3c1.7.2 3.5-.3 4.9-1.3-1.5 0-2.7-1-3.1-2.3h1.5A3.3 3.3 0 0 1 5 10.5c.5.2 1 .4 1.5.4-1.4-1-1.8-3-1-4.4 1.6 2 4 3.3 6.8 3.4A3.3 3.3 0 0 1 18 7c.7-.1 1.4-.4 2-.8-.2.8-.7 1.5-1.4 1.9.7-.1 1.3-.3 1.9-.6-.4.7-1 1.3-1.6 1.7z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://www.facebook.com/nureddinhaji"
+              class="contact__social"
+              target="_blank"
+              aria-label="follow me on facebook"
+            >
+              <svg
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zm-3 7h-2c-.5 0-1 .3-1 .9V9h3l-.2 3H13v8h-3v-8H8V9h2V7c0-2 1-3 3.5-3H16v3z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://t.me/nureddinhaji"
+              class="contact__social"
+              target="_blank"
+              aria-label="follow me on telegram"
+            >
+              <svg
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 24H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5h14a5 5 0 0 1 5 5v14a5 5 0 0 1-5 5Zm-2.7-5.1h.7c.2 0 .4-.3.5-.5L20 6.3c0-.2 0-.4-.2-.5a.5.5 0 0 0-.5-.1l-15 5.6c-.2 0-.3.3-.3.5s.2.4.4.5L8 13.4l1.5 4.4c0 .2.2.4.4.4l.6-.1 2-2 3.8 2.8ZM8.9 13l1.1 3.7.3-2.4L17 8.3V8h-.3L9 13Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                name="fullName"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+                name="telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer id="footer" class="footer">
+        &copy; 2024 Developed By <span>Selhab Ahmed Yakoub</span>
+      </footer>
+    </div>
+  </body>
+</html>
